@@ -1,3 +1,8 @@
+import friends from '../friends.json'
+import user from '../user.json';
+import data from '../data.json';
+import { Profilecard } from './Profilecard';
+import { Statistics } from './Statistics';
 export const App = () => {
   return (
     <div
@@ -10,7 +15,9 @@ export const App = () => {
         color: '#010101'
       }}
     >
-      React homework template
+      <Profilecard items={user}/>
+    <Statistics stats={data}/>
+    <FriendList friends={friends}/>
     </div>
   );
 };
