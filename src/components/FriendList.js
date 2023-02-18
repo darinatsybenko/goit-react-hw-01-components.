@@ -1,7 +1,7 @@
 
 
 export const FriendList = ({friends}) => {
-return (
+
 <ul>
     {friends.map(friend => {
             return(
@@ -10,5 +10,5 @@ return (
         })
     }
 </ul>
-)
+
 };
