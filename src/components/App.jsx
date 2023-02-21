@@ -3,6 +3,7 @@ import user from '../user.json';
 import data from '../data.json';
 import { Profilecard } from './Profilecard';
 import { Statistics } from './Statistics';
+import { FriendList } from './FriendList';
 export const App = () => {
   return (
     <div
